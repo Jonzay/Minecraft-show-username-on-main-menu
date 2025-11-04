@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "showusernameonmainmenu",
+	"version": "${version}",
+	"name": "Show Username On Main Menu",
+	"description": "Displays the currently logged in user's username on the top centre of the main menu.",
+	"authors": [
+		"Jonzay"
+	],
+	"contact": {
+		"homepage": "https://jonzay.codes",
+		"sources": "https://github.com/Jonzay/Minecraft-show-username-on-main-menu"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/showusernameonmainmenu/suomm_icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"codes.jonzay.ShowUsernameOnMainMenu"
+		]
+	},
+	"mixins": [
+		"showusernameonmainmenu.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
